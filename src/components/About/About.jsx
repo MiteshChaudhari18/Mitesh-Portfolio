@@ -128,11 +128,11 @@ const About = () => {
       </div>
 
       {/* View Counter */}
-      {/* { <div className="fixed bottom-4 right-4 z-50 bg-[#2b0a12] px-4 py-2 rounded-lg shadow-lg border border-[#800020]">
+      { { <div className="fixed bottom-4 right-4 z-50 bg-[#2b0a12] px-4 py-2 rounded-lg shadow-lg border border-[#800020]">
         <p className="text-white text-sm sm:text-base font-semibold">
           Views: {views}
         </p>
-      </div> } */}
+      </div> } }
     </motion.section>
   );
 };
